@@ -17,6 +17,19 @@ alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
+# teachboost servers
+alias treebeard="ssh -p 30000 trunk@162.209.79.46"
+alias jace="ssh -p 30000 trunk@50.116.53.249"
+alias ungoliant="ssh -p 30000 teachboost@lab.teachboost.net"
+
+# personal servers
+alias linode="ssh -p 30000 trunk@66.228.45.57"
+
+# utilities
+alias showfiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hidefiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+alias publickey='cat ~/.ssh/id_rsa.pub'
+
 # specific system aliases
 # @todo
 
