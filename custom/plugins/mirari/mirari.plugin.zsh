@@ -1,3 +1,6 @@
+# custom path entries
+path+=($HOME/.composer/vendor/bin)
+
 # system shortcuts
 alias d="cd ~/Documents"
 alias dl="cd ~/Downloads"
