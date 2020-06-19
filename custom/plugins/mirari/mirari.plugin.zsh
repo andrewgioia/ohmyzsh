@@ -32,6 +32,7 @@ alias linode="ssh -p 30000 trunk@66.228.45.57"
 alias showfiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hidefiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 alias publickey='cat ~/.ssh/id_rsa.pub'
+alias ip='curl icanhazip.com`
 
 # specific system aliases
 # @todo
