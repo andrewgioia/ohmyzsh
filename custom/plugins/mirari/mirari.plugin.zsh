@@ -9,8 +9,13 @@ alias p="cd ~/Projects"
 alias g="git"
 
 # project aliases
+alias blog="cd ~/Projects/Sites/Blog/blog"
 alias caladan="cd ~/Projects/Caladan/caladan"
 alias dotfiles="cd ~/Projects/Dotfiles"
+alias homepage="cd ~/Projects/Sites/Andrew/home"
+alias keyrune="cd ~/Projects/Keyrune/keyrune"
+alias mana="cd ~/Projects/Mana/mana"
+alias moria="cd ~/Projects/TeachBoost/Moria/moria"
 
 # easier navigation
 alias ..="cd .."
@@ -32,7 +37,11 @@ alias linode="ssh -p 30000 trunk@66.228.45.57"
 alias showfiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hidefiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 alias publickey='cat ~/.ssh/id_rsa.pub'
-alias ip='curl icanhazip.com`
+alias ip='curl icanhazip.com'
+
+# system
+alias stopspotlight="sudo mdutil -a -i off"
+alias startspotlight="sudo mdutil -a -i on"
 
 # specific system aliases
 # @todo
